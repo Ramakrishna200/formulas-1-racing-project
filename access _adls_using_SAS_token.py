@@ -2,7 +2,7 @@
 # DBTITLE 1,Access Azure Data Lake using access keys
 ##1. Set the spark config fs.azure.SAS.token
 ##2. List files from demo container
-##3. Read data from circuits.csv file
+##3. Read data from covid19.csv file
 
 
 # COMMAND ----------
