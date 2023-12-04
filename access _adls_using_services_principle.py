@@ -1,10 +1,10 @@
 # Databricks notebook source
 # DBTITLE 1,### Access Azure Data Lake using Service Principal
-# MAGIC #### Steps to follow
-# MAGIC 1. Register Azure AD Application / Service Principal
-# MAGIC 2. Generate a secret/ password for the Application
-# MAGIC 3. Set Spark Config with App/ Client Id, Directory/ Tenant Id & Secret
-# MAGIC 4. Assign Role 'Storage Blob Data Contributor' to the Data Lake. 
+#### Steps to follow
+1. Register Azure AD Application / Service Principal
+2. Generate a secret/ password for the Application
+3. Set Spark Config with App/ Client Id, Directory/ Tenant Id & Secret
+4. Assign Role 'Storage Blob Data Contributor' to the Data Lake. 
 
 
 
@@ -26,7 +26,7 @@ spark.conf.set("fs.azure.account.oauth2.client.endpoint.rama12.dfs.core.windows.
 
 # COMMAND ----------
 
-dbutils.fs.ls("abfss://formula1@rama12.dfs.core.windows.net")
+dbutils.fs.ls("abfss://rawdata@rama12.dfs.core.windows.net")
 
 # COMMAND ----------
 
