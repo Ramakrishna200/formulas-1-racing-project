@@ -47,11 +47,19 @@ dbutils.fs.mount(
 
 # COMMAND ----------
 
+display(dbutils.fs.ls("/mnt/<rama12/formula1"))
+
+# COMMAND ----------
+
 display(dbutils.fs.ls("/mnt/<rama12/rawadata"))
+
+
+
 
 # COMMAND ----------
 
 display(dbutils.fs.ls("/mnt/<rama12/formula1"))
+
 
 # COMMAND ----------
 
